@@ -1,1 +1,1 @@
-{"name":"manta-rescue","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node src/server.js","test":"node --test","benchmark":"node scripts/benchmark.js"},"engines":{"node":">=22"}}
+{"name":"manta-rescue","version":"0.2.0","private":true,"type":"module","scripts":{"start":"node src/server.js","test":"node --test","benchmark":"node scripts/benchmark.js","benchmark:http":"node scripts/benchmark-http.js","map:import":"node scripts/import-manta.js"},"engines":{"node":">=22"}}
