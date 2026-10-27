@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-10-27T02:18:04.755Z",
+  "environment": "Localhost HTTP, cliente y servidor en el mismo proceso; sin AWS ni red externa. Rondas aceleradas, sin pausas de 2 segundos.",
+  "node": "v22.11.0",
+  "concurrency": 200,
+  "batches": 5,
+  "samples": 1000,
+  "p50Ms": 126.20680000000004,
+  "p95Ms": 268.1151,
+  "maxMs": 278.794,
+  "over500ms": 0,
+  "errors": 0,
+  "timeouts": 0,
+  "invalidMoves": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "seed": 42,
+      "turns": 28,
+      "saved": 20,
+      "total": 20,
+      "muestras": 168,
+      "p95Ms": 13.331699999999955,
+      "maxMs": 14.60590000000002,
+      "errores": 0,
+      "timeouts": 0
+    },
+    {
+      "round": 2,
+      "seed": 42,
+      "turns": 116,
+      "saved": 73,
+      "total": 80,
+      "muestras": 2172,
+      "p95Ms": 41.47370000000001,
+      "maxMs": 53.841899999999896,
+      "errores": 0,
+      "timeouts": 0
+    },
+    {
+      "round": 3,
+      "seed": 42,
+      "turns": 71,
+      "saved": 191,
+      "total": 200,
+      "muestras": 3804,
+      "p95Ms": 100.45520000000033,
+      "maxMs": 146.5079999999998,
+      "errores": 0,
+      "timeouts": 0
+    }
+  ],
+  "pass": true
+}

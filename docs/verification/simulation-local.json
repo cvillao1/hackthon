@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-10-27T02:17:41.934Z",
+  "environment": "Local in-process. Paired OSM scenarios; not HTTP or AWS. Baseline is current-node Dijkstra, not the original synthetic simulation.",
+  "seeds": [
+    7,
+    42,
+    123
+  ],
+  "results": [
+    {
+      "round": 1,
+      "seed": 7,
+      "strategy": "baseline",
+      "saved": 20,
+      "total": 20,
+      "bitten": 0,
+      "active": 0,
+      "efficiencyAmongSaved": 0.5950046685340802,
+      "routingP95Ms": 3.7820999999999856,
+      "elapsedMs": 153.44650000000001
+    },
+    {
+      "round": 1,
+      "seed": 7,
+      "strategy": "predictive",
+      "saved": 20,
+      "total": 20,
+      "bitten": 0,
+      "active": 0,
+      "efficiencyAmongSaved": 0.6218469485495346,
+      "routingP95Ms": 2.6124000000000365,
+      "elapsedMs": 107.33210000000003
+    },
+    {
+      "round": 1,
+      "seed": 42,
+      "strategy": "baseline",
+      "saved": 19,
+      "total": 20,
+      "bitten": 1,
+      "active": 0,
+      "efficiencyAmongSaved": 0.8324864193977767,
+      "routingP95Ms": 2.619799999999998,
+      "elapsedMs": 81.822
+    },
+    {
+      "round": 1,
+      "seed": 42,
+      "strategy": "predictive",
+      "saved": 20,
+      "total": 20,
+      "bitten": 0,
+      "active": 0,
+      "efficiencyAmongSaved": 0.8014935064935065,
+      "routingP95Ms": 2.627200000000016,
+      "elapsedMs": 84.11350000000004
+    },
+    {
+      "round": 1,
+      "seed": 123,
+      "strategy": "baseline",
+      "saved": 20,
+      "total": 20,
+      "bitten": 0,
+      "active": 0,
+      "efficiencyAmongSaved": 0.9122766122766123,
+      "routingP95Ms": 2.4382000000000517,
+      "elapsedMs": 50.456800000000044
+    },
+    {
+      "round": 1,
+      "seed": 123,
+      "strategy": "predictive",
+      "saved": 20,
+      "total": 20,
+      "bitten": 0,
+      "active": 0,
+      "efficiencyAmongSaved": 0.8870906870906872,
+      "routingP95Ms": 2.4756999999999607,
+      "elapsedMs": 60.206800000000044
+    },
+    {
+      "round": 2,
+      "seed": 7,
+      "strategy": "baseline",
+      "saved": 54,
+      "total": 80,
+      "bitten": 26,
+      "active": 0,
+      "efficiencyAmongSaved": 0.7464266972436908,
+      "routingP95Ms": 2.0207000000000335,
+      "elapsedMs": 814.4491999999999
+    },
+    {
+      "round": 2,
+      "seed": 7,
+      "strategy": "predictive",
+      "saved": 73,
+      "total": 80,
+      "bitten": 1,
+      "active": 6,
+      "efficiencyAmongSaved": 0.7197429094460951,
+      "routingP95Ms": 2.4241000000001804,
+      "elapsedMs": 1391.9903
+    },
+    {
+      "round": 2,
+      "seed": 42,
+      "strategy": "baseline",
+      "saved": 43,
+      "total": 80,
+      "bitten": 35,
+      "active": 2,
+      "efficiencyAmongSaved": 0.7306115073556935,
+      "routingP95Ms": 2.101300000000265,
+      "elapsedMs": 781.7136
+    },
+    {
+      "round": 2,
+      "seed": 42,
+      "strategy": "predictive",
+      "saved": 73,
+      "total": 80,
+      "bitten": 7,
+      "active": 0,
+      "efficiencyAmongSaved": 0.4745794152853303,
+      "routingP95Ms": 2.358499999999367,
+      "elapsedMs": 1776.8516999999997
+    },
+    {
+      "round": 2,
+      "seed": 123,
+      "strategy": "baseline",
+      "saved": 38,
+      "total": 80,
+      "bitten": 41,
+      "active": 1,
+      "efficiencyAmongSaved": 0.8024511038361455,
+      "routingP95Ms": 1.9318999999995867,
+      "elapsedMs": 716.9857999999995
+    },
+    {
+      "round": 2,
+      "seed": 123,
+      "strategy": "predictive",
+      "saved": 70,
+      "total": 80,
+      "bitten": 8,
+      "active": 2,
+      "efficiencyAmongSaved": 0.7004800410079913,
+      "routingP95Ms": 2.0843999999997322,
+      "elapsedMs": 1196.3438999999998
+    },
+    {
+      "round": 3,
+      "seed": 7,
+      "strategy": "baseline",
+      "saved": 116,
+      "total": 200,
+      "bitten": 82,
+      "active": 2,
+      "efficiencyAmongSaved": 0.6697967668263771,
+      "routingP95Ms": 2.1028000000005704,
+      "elapsedMs": 1711.9653000000008
+    },
+    {
+      "round": 3,
+      "seed": 7,
+      "strategy": "predictive",
+      "saved": 164,
+      "total": 200,
+      "bitten": 32,
+      "active": 4,
+      "efficiencyAmongSaved": 0.770938269793736,
+      "routingP95Ms": 1.0936999999994441,
+      "elapsedMs": 2374.5159999999996
+    },
+    {
+      "round": 3,
+      "seed": 42,
+      "strategy": "baseline",
+      "saved": 146,
+      "total": 200,
+      "bitten": 54,
+      "active": 0,
+      "efficiencyAmongSaved": 0.6764864424938006,
+      "routingP95Ms": 1.9574999999986176,
+      "elapsedMs": 1552.5563000000002
+    },
+    {
+      "round": 3,
+      "seed": 42,
+      "strategy": "predictive",
+      "saved": 191,
+      "total": 200,
+      "bitten": 9,
+      "active": 0,
+      "efficiencyAmongSaved": 0.5572260286880232,
+      "routingP95Ms": 0.13410000000112632,
+      "elapsedMs": 2848.8631000000005
+    },
+    {
+      "round": 3,
+      "seed": 123,
+      "strategy": "baseline",
+      "saved": 150,
+      "total": 200,
+      "bitten": 47,
+      "active": 3,
+      "efficiencyAmongSaved": 0.8224591519591519,
+      "routingP95Ms": 2.1111000000018976,
+      "elapsedMs": 1588.9678999999996
+    },
+    {
+      "round": 3,
+      "seed": 123,
+      "strategy": "predictive",
+      "saved": 189,
+      "total": 200,
+      "bitten": 6,
+      "active": 5,
+      "efficiencyAmongSaved": 0.6401278630607661,
+      "routingP95Ms": 0.1422999999995227,
+      "elapsedMs": 3682.2263999999996
+    }
+  ],
+  "summary": [
+    {
+      "strategy": "baseline",
+      "saved": 606,
+      "total": 900
+    },
+    {
+      "strategy": "predictive",
+      "saved": 820,
+      "total": 900
+    }
+  ]
+}
